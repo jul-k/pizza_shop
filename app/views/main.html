@@ -1,6 +1,6 @@
 <div class="cart-btn">
   <button type="button" class="btn btn-dark btn-lg">
-    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> $50.00
+    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> &#8372;50.00
   </button>
   <span>3</span>
 </div>
@@ -8,24 +8,26 @@
 
 <section class="catalog-grid">
     <div class="container">
-        <h2 class="dark-color">Menu</h2>
+        <h2 class="dark-color">Меню</h2>
         <div class="row">
-            <!--Tile-->
+            <div class="item" ng-repeat='pizza in pizzas'>
+              <!--Tile-->
             <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="title">
-                    <div class="price-label">10,00 $</div>
+                    <div class="price-label">{{pizza.customPrice}}&#8372;</div>
                     <div class="product">
                       <a href="#">
-                        <img src="http://express-pizza.vn.ua/uploads/a/8/a88fa67b79e9a82a74e07db4814fc857.png" alt="1">
+                        <img src="{{pizza.images.small}}" alt="1">
                         <span class="title-overlay"></span>
                       </a>
                     </div>
                     <footer>
-                        <a href="#">Pizza "Margherita"</a>
-                        <span>salami, pizza dough, tomato sauce, fresh mozzarella, extra-virgin olive oil, basil leaves</span>
-                        <button class="btn btn-primary">Add to Cart</button>
+                        <a href="#">{{pizza.title}}</a>
+                        <span>{{pizza.description}}</span>
+                        <button class="btn btn-primary">Замовити</button>
                     </footer>
                 </div>
+            </div>
             </div>
         </div>
     </div>

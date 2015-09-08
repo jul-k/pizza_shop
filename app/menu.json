@@ -1,0 +1,1968 @@
+{
+    "bases": [
+        {
+            "extID": "20096",
+            "type": "pizza-bottom",
+            "title": "Середня",
+            "slug": "average",
+            "price": 47.5,
+            "description": "",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2012/12/200x200.gif",
+                "small": "http://mamamia.ua/wp-content/uploads/2012/12/200x200-wpcf_170x170.gif"
+            },
+            "priceMultiplier": 1
+        },
+        {
+            "extID": "20100",
+            "type": "pizza-bottom",
+            "title": "Табіті (ковбасний бортик)",
+            "slug": "sausage",
+            "price": 63,
+            "description": "",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2012/12/200x200.gif",
+                "small": "http://mamamia.ua/wp-content/uploads/2012/12/200x200-wpcf_170x170.gif"
+            },
+            "priceMultiplier": 1
+        },
+        {
+            "extID": "20098",
+            "type": "pizza-bottom",
+            "title": "Табіті (сирний бортик)",
+            "slug": "cheese",
+            "price": 63,
+            "description": "",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2012/12/200x200.gif",
+                "small": "http://mamamia.ua/wp-content/uploads/2012/12/200x200-wpcf_170x170.gif"
+            },
+            "priceMultiplier": 1
+        },
+        {
+            "extID": "20094",
+            "type": "pizza-bottom",
+            "title": "Велика",
+            "slug": "large",
+            "price": 59.5,
+            "description": "",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2012/12/200x200.gif",
+                "small": "http://mamamia.ua/wp-content/uploads/2012/12/200x200-wpcf_170x170.gif"
+            },
+            "priceMultiplier": 2
+        },
+        {
+            "extID": "22338",
+            "type": "pizza-bottom",
+            "title": "Табіті велика (ковбасний бортик)",
+            "slug": "tab-big-sausage",
+            "price": 90.5,
+            "description": "",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "",
+                "small": ""
+            },
+            "priceMultiplier": 2
+        },
+        {
+            "extID": "22337",
+            "type": "pizza-bottom",
+            "title": "Табіті велика (сирний бортик)",
+            "slug": "tab-big-cheese",
+            "price": 90.5,
+            "description": "",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "",
+                "small": ""
+            },
+            "priceMultiplier": 2
+        },
+        {
+            "extID": "22165",
+            "type": "pizza-bottom",
+            "title": "XL",
+            "slug": "xl",
+            "price": 88.5,
+            "description": "",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "",
+                "small": ""
+            },
+            "priceMultiplier": 4
+        }
+    ],
+    "wishes": [],
+    "toppings": [
+        {
+            "extID": "20177",
+            "type": "topping",
+            "title": "Імбир",
+            "slug": "imbir",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/ginger1.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/ginger1-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20168",
+            "type": "topping",
+            "title": "Бекон",
+            "slug": "bekon",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/vetchina.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/vetchina-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20198",
+            "type": "topping",
+            "title": "Бамбук",
+            "slug": "bambuk",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/bamboo.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/bamboo-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20171",
+            "type": "topping",
+            "title": "Броколі",
+            "slug": "brokoli",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/broccoli.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/broccoli-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20165",
+            "type": "topping",
+            "title": "Ананас",
+            "slug": "ananas",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/ananas.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/ananas-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20180",
+            "type": "topping",
+            "title": "Каперси",
+            "slug": "kapersi",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/capers.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/capers-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20247",
+            "type": "topping",
+            "title": "Качка",
+            "slug": "kachka",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/duck.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/duck-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20256",
+            "type": "topping",
+            "title": "Ковбаски",
+            "slug": "kovbaski",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/kolbasa.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/kolbasa-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20183",
+            "type": "topping",
+            "title": "Корнішони",
+            "slug": "kornishoni",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/gherkins.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/gherkins-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20186",
+            "type": "topping",
+            "title": "Кукурудза",
+            "slug": "kukurudza",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/kukuruza.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/kukuruza-wpcf_170x130.png"
+            }
+        },
+        {
+            "extID": "20267",
+            "type": "topping",
+            "title": "Курка",
+            "slug": "kurka",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/kuritsa.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/kuritsa-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20192",
+            "type": "topping",
+            "title": "Морський коктейль",
+            "slug": "morskij-koktejl",
+            "price": 39,
+            "description": "",
+            "categories": "seafood",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/seafood.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/seafood-wpcf_170x130.png"
+            }
+        },
+        {
+            "extID": "20220",
+            "type": "topping",
+            "title": "Чеддер",
+            "slug": "cheder",
+            "price": 14.9,
+            "description": "",
+            "categories": "cheese",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/cheddar.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/cheddar-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20223",
+            "type": "topping",
+            "title": "Фета",
+            "slug": "feta-2",
+            "price": 14.9,
+            "description": "",
+            "categories": "cheese",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/feta.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/feta-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20244",
+            "type": "topping",
+            "title": "Шинка",
+            "slug": "shinka",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/vetchina.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/vetchina-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20238",
+            "type": "topping",
+            "title": "Халапеньо",
+            "slug": "xalapeno",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/perec.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/perec-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20201",
+            "type": "topping",
+            "title": "Печериці",
+            "slug": "pecherici",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/gribi.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/gribi-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20229",
+            "type": "topping",
+            "title": "Оливки",
+            "slug": "olivki",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/olivki.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/olivki-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20235",
+            "type": "topping",
+            "title": "Цибуля",
+            "slug": "cibulya",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/luk.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/luk-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20217",
+            "type": "topping",
+            "title": "Пармезан",
+            "slug": "parmezan-2",
+            "price": 14.9,
+            "description": "",
+            "categories": "cheese",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/parmesan.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/parmesan-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20208",
+            "type": "topping",
+            "title": "Перець",
+            "slug": "perec",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/bolgarskij_perec.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/bolgarskij_perec-wpcf_170x130.png"
+            }
+        },
+        {
+            "extID": "20250",
+            "type": "topping",
+            "title": "Папероні",
+            "slug": "paperoni",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/kolbasa.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/kolbasa-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20232",
+            "type": "topping",
+            "title": "Чорнослив",
+            "slug": "chornosliv",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/chernosliv.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/chernosliv-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20253",
+            "type": "topping",
+            "title": "Салямi",
+            "slug": "salyami",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/kolbasa.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/kolbasa-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20205",
+            "type": "topping",
+            "title": "Помідори",
+            "slug": "pomidori",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/tomat.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/tomat-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20259",
+            "type": "topping",
+            "title": "Телятина",
+            "slug": "telyatina",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/vetchina.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/vetchina-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20214",
+            "type": "topping",
+            "title": "Моцарела",
+            "slug": "mocarela",
+            "price": 14.9,
+            "description": "",
+            "categories": "cheese",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/mozarella.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/mozarella-wpcf_170x170.png"
+            }
+        }
+    ],
+    "toppings1": [
+        {
+            "extID": "20177",
+            "type": "topping",
+            "title": "Імбир",
+            "slug": "imbir",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/ginger1.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/ginger1-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20168",
+            "type": "topping",
+            "title": "Бекон",
+            "slug": "bekon",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/vetchina.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/vetchina-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20198",
+            "type": "topping",
+            "title": "Бамбук",
+            "slug": "bambuk",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/bamboo.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/bamboo-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20171",
+            "type": "topping",
+            "title": "Броколі",
+            "slug": "brokoli",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/broccoli.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/broccoli-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20165",
+            "type": "topping",
+            "title": "Ананас",
+            "slug": "ananas",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/ananas.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/ananas-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20180",
+            "type": "topping",
+            "title": "Каперси",
+            "slug": "kapersi",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/capers.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/capers-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20247",
+            "type": "topping",
+            "title": "Качка",
+            "slug": "kachka",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/duck.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/duck-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20256",
+            "type": "topping",
+            "title": "Ковбаски",
+            "slug": "kovbaski",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/kolbasa.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/kolbasa-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20183",
+            "type": "topping",
+            "title": "Корнішони",
+            "slug": "kornishoni",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/gherkins.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/gherkins-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20186",
+            "type": "topping",
+            "title": "Кукурудза",
+            "slug": "kukurudza",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/kukuruza.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/kukuruza-wpcf_170x130.png"
+            }
+        },
+        {
+            "extID": "20267",
+            "type": "topping",
+            "title": "Курка",
+            "slug": "kurka",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/kuritsa.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/kuritsa-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20192",
+            "type": "topping",
+            "title": "Морський коктейль",
+            "slug": "morskij-koktejl",
+            "price": 39,
+            "description": "",
+            "categories": "seafood",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/seafood.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/seafood-wpcf_170x130.png"
+            }
+        },
+        {
+            "extID": "20220",
+            "type": "topping",
+            "title": "Чеддер",
+            "slug": "cheder",
+            "price": 14.9,
+            "description": "",
+            "categories": "cheese",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/cheddar.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/cheddar-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20223",
+            "type": "topping",
+            "title": "Фета",
+            "slug": "feta-2",
+            "price": 14.9,
+            "description": "",
+            "categories": "cheese",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/feta.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/feta-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20244",
+            "type": "topping",
+            "title": "Шинка",
+            "slug": "shinka",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/vetchina.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/vetchina-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20238",
+            "type": "topping",
+            "title": "Халапеньо",
+            "slug": "xalapeno",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/perec.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/perec-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20201",
+            "type": "topping",
+            "title": "Печериці",
+            "slug": "pecherici",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/gribi.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/gribi-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20229",
+            "type": "topping",
+            "title": "Оливки",
+            "slug": "olivki",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/olivki.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/olivki-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20235",
+            "type": "topping",
+            "title": "Цибуля",
+            "slug": "cibulya",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/luk.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/luk-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20217",
+            "type": "topping",
+            "title": "Пармезан",
+            "slug": "parmezan-2",
+            "price": 14.9,
+            "description": "",
+            "categories": "cheese",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/parmesan.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/parmesan-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20208",
+            "type": "topping",
+            "title": "Перець",
+            "slug": "perec",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/bolgarskij_perec.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/bolgarskij_perec-wpcf_170x130.png"
+            }
+        },
+        {
+            "extID": "20250",
+            "type": "topping",
+            "title": "Папероні",
+            "slug": "paperoni",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/kolbasa.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/kolbasa-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20232",
+            "type": "topping",
+            "title": "Чорнослив",
+            "slug": "chornosliv",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/02/chernosliv.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/02/chernosliv-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20253",
+            "type": "topping",
+            "title": "Салямi",
+            "slug": "salyami",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/kolbasa.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/kolbasa-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20205",
+            "type": "topping",
+            "title": "Помідори",
+            "slug": "pomidori",
+            "price": 7.8,
+            "description": "",
+            "categories": "vegetables",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/tomat.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/tomat-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20259",
+            "type": "topping",
+            "title": "Телятина",
+            "slug": "telyatina",
+            "price": 14.9,
+            "description": "",
+            "categories": "meat",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/vetchina.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/vetchina-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20214",
+            "type": "topping",
+            "title": "Моцарела",
+            "slug": "mocarela",
+            "price": 14.9,
+            "description": "",
+            "categories": "cheese",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/mozarella.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/mozarella-wpcf_170x170.png"
+            }
+        }
+    ],
+    "sauces": [
+        {
+            "extID": "20280",
+            "type": "sauce",
+            "title": "Барбекю (гострий)",
+            "slug": "barbekyu-gostrij",
+            "price": 6.9,
+            "description": "",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2012/12/200x200.gif",
+                "small": "http://mamamia.ua/wp-content/uploads/2012/12/200x200-wpcf_170x170.gif"
+            }
+        },
+        {
+            "extID": "20277",
+            "type": "sauce",
+            "title": "Томатний (класичний)",
+            "slug": "tomatnij-klasichnij",
+            "price": 6.9,
+            "description": "",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2012/12/200x200.gif",
+                "small": "http://mamamia.ua/wp-content/uploads/2012/12/200x200-wpcf_170x170.gif"
+            }
+        },
+        {
+            "extID": "20283",
+            "type": "sauce",
+            "title": "Рікота (білий)",
+            "slug": "rikota-bilij",
+            "price": 6.9,
+            "description": "",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2012/12/200x200.gif",
+                "small": "http://mamamia.ua/wp-content/uploads/2012/12/200x200-wpcf_170x170.gif"
+            }
+        }
+    ],
+    "drinks": [
+        {
+            "extID": "20387",
+            "type": "drink",
+            "title": "Домашній лимонад із розмарином",
+            "slug": "domashnij-limonad-iz-rozmarinom",
+            "price": 25,
+            "description": "Найкраще втамовує спрагу!",
+            "categories": "Безалкогольні напої",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/09/Лимонад_стакан4-wpcf_800x500.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/09/Лимонад_стакан4-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "22895",
+            "type": "drink",
+            "title": "Hoegaarden біле 0,5",
+            "slug": "hoegaarden-05",
+            "price": 45,
+            "description": "",
+            "categories": "Пиво",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/09/hoegaarden_can-wpcf_480x500.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/09/hoegaarden_can-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "22545",
+            "type": "drink",
+            "title": "Спіруліновий смузі Чарлі в пляшці",
+            "slug": "spirulinovij-smuzi-charli-v-plyashci",
+            "price": 35,
+            "description": "Ківі, яблука, помаранчі, банан та жива водорость спіруліна",
+            "categories": "",
+            "recommended": "yes",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/05/Смузи-Чарли-small-wpcf_800x500.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/05/Смузи-Чарли-small-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "20478",
+            "type": "drink",
+            "title": "Фреш помаранчевий 0.5",
+            "slug": "fresh-pomaranchevij",
+            "price": 72.5,
+            "description": "Натуральний та свіжий!",
+            "categories": "Безалкогольні напої",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/drink-fresh.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/drink-fresh-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "20477",
+            "type": "drink",
+            "title": "Фреш грейпфрутовий 0.5",
+            "slug": "fresh-grejfrutovij",
+            "price": 72.5,
+            "description": "",
+            "categories": "Безалкогольні напої",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/drink-fresh.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/drink-fresh-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "20478",
+            "type": "drink",
+            "title": "Фреш мікс 0.5",
+            "slug": "fresh-miks-0-5",
+            "price": 72.5,
+            "description": "",
+            "categories": "Безалкогольні напої",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/drink-fresh.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/drink-fresh-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "00321",
+            "type": "drink",
+            "title": "Coca-Cola 0.5",
+            "slug": "coca-cola",
+            "price": 19,
+            "description": "",
+            "categories": "Безалкогольні напої",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/drink-coke.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/drink-coke-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "00317",
+            "type": "drink",
+            "title": "Сік помаранчевий 1.0",
+            "slug": "sik-pomaranchevij-1-0",
+            "price": 29,
+            "description": "",
+            "categories": "Безалкогольні напої",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/01/апельсиновый-сок3.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/01/апельсиновый-сок3.png"
+            }
+        },
+        {
+            "extID": "22341",
+            "type": "drink",
+            "title": "Сік яблучний 1.0",
+            "slug": "sik-yabluchnij-1-0",
+            "price": 29,
+            "description": "",
+            "categories": "Безалкогольні напої",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/03/litr.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/03/litr-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "00319",
+            "type": "drink",
+            "title": "Сік томатний 1.0",
+            "slug": "jaffa-apelsin-1l",
+            "price": 29,
+            "description": "",
+            "categories": "Безалкогольні напої",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/03/томатный-сок.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/03/томатный-сок-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "12414",
+            "type": "drink",
+            "title": "Моршинська 0.5",
+            "slug": "morshinska-0-5",
+            "price": 29,
+            "description": "",
+            "categories": "Безалкогольні напої",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/drink-water.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/drink-water-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "21027",
+            "type": "drink",
+            "title": "Leffe темне 0.5",
+            "slug": "pivo-leffe-0-5",
+            "price": 45,
+            "description": "",
+            "categories": "Пиво",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/beer-leffe.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/beer-leffe-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "012620",
+            "type": "drink",
+            "title": "Stella Artois 0.5",
+            "slug": "pivo-stella-artois",
+            "price": 25,
+            "description": "",
+            "categories": "Пиво",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/beer-stella-artois.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/beer-stella-artois-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "12426",
+            "type": "drink",
+            "title": "Stella Artois (б/а) 0.5",
+            "slug": "pivo-stella-artois-ba",
+            "price": 25,
+            "description": "",
+            "categories": "Пиво",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/beer-stella-artois-na.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/beer-stella-artois-na-wpcf_170x170.jpg"
+            }
+        }
+    ],
+    "extras": [
+        {
+            "extID": "22586",
+            "type": "extra",
+            "title": "Великий Веджі Грек",
+            "slug": "velikij-vedzhi-grek",
+            "price": 82,
+            "description": "Салат айсберг, огірок, томат в\"ялений, перець, оливки, цибуля порей, чіпси Тортилья, оливкова олія, шматочки сиру фета",
+            "categories": "Салати",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/05/Greeks-small-wpcf_800x500.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/05/Greeks-small-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "22879",
+            "type": "extra",
+            "title": "Равіолі з качкою під журавлиновим соусом",
+            "slug": "ravioli-z-kachkoyu-pid-zhuravlinovim-sousom",
+            "price": 63,
+            "description": "",
+            "categories": "Паста",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/09/pasta_-ravioli_with_duck.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/09/pasta_-ravioli_with_duck-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "22875",
+            "type": "extra",
+            "title": "Пене з лисичками та вершковим соусом",
+            "slug": "pene-z-lisichkami-ta-vershkovim-sousom",
+            "price": 59,
+            "description": "",
+            "categories": "Паста",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/09/penne_with_mushrooms.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/09/penne_with_mushrooms-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "22885",
+            "type": "extra",
+            "title": "Паста-салат з пармою та сиром дорблю",
+            "slug": "pasta-salat-z-parmoyu-ta-shmatochkami-siru-dorblyu",
+            "price": 75,
+            "description": "",
+            "categories": "Салати",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/09/pasta_salad.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/09/pasta_salad-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "23133",
+            "type": "extra",
+            "title": "Паніні з лососем",
+            "slug": "panini-z-lososem",
+            "price": 79,
+            "description": "Хрустка чіабата із свіжим салатом, сиром філадельфія, філе слабосолоного лосося, руколою та соусом песто.",
+            "categories": "Новинки",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2015/01/panini_salmon.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2015/01/panini_salmon-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "23207",
+            "type": "extra",
+            "title": "Робін Бобін велика",
+            "slug": "robin-bobin-velika",
+            "price": 239,
+            "description": "Класичний соус, ростбіф, маринований солодкий перець, гострий перець халапеньо, мітболзи",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2015/01/big_robin.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2015/01/big_robin-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "23131",
+            "type": "extra",
+            "title": "Паніні з куркою",
+            "slug": "panini-z-kurkoyu",
+            "price": 57,
+            "description": "Хрустка чіабата зі свіжим салатом, соусом песто, моцарелою, куркою гриль, томатами, руколою та пікантним діжонським соусом",
+            "categories": "Новинки",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2015/01/panini_chicken.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2015/01/panini_chicken-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "23132",
+            "type": "extra",
+            "title": "Паніні з ростбіфом",
+            "slug": "panini-z-rostbifom",
+            "price": 67,
+            "description": "Хрустка чіабата зі свіжим салатом, соковитим ростбіфом, моцарелою, шматочками маринованого перцю та пікантним діжонським соусом",
+            "categories": "Новинки",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2015/01/panini_rostbif.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2015/01/panini_rostbif-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "22585",
+            "type": "extra",
+            "title": "Великий Веджі Цезар",
+            "slug": "velikij-vedzhi-cezar-2",
+            "price": 79.9,
+            "description": "Салат айсберг, пармезан, курка гриль, крутони, соус Цезар із анчоусами",
+            "categories": "Салати",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2015/02/Веджі-Цезар-wpcf_800x500.png",
+                "small": "http://mamamia.ua/wp-content/uploads/2015/02/Веджі-Цезар-wpcf_170x170.png"
+            }
+        },
+        {
+            "extID": "23125",
+            "type": "extra",
+            "title": "Робін Бобін",
+            "slug": "robin-bobin-3",
+            "price": 147,
+            "description": "Класичний соус, ростбіф, маринований солодкий перець, гострий перець халапеньо, мітболзи",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2015/01/bobin2.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2015/01/bobin2-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "22313",
+            "type": "extra",
+            "title": "Italy",
+            "slug": "italy-4",
+            "price": 280,
+            "description": "Піца XL-розміру в кольорах італійського прапора! Білий соус рікота, томати, салат рукола, пармезан, соус песто; соус класичний, сир моцарела, філе куряче; соус барбекю, шинка, салямі, броколі, корнішони мариновані",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/01/xl_2.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/01/xl_2-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "21857",
+            "type": "extra",
+            "title": "Чорна карбонара з восьминіжкою",
+            "slug": "pasta-karbonara",
+            "price": 57,
+            "description": "Паста з чорнилом каракатиці, соус карбонара, восьминіжка у фритюрі, пармезан, рукола",
+            "categories": "Паста",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/snack-pasta-carbonara.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/snack-pasta-carbonara-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "22099",
+            "type": "extra",
+            "title": "Лазанья Болоньєзе",
+            "slug": "lazanya-bolonyeze",
+            "price": 63,
+            "description": "Лазанья Болоньєзе п/ф, сир моцарела, кедрові горішки, соус бешамель, соус болоньєзе, томати чері, рукола",
+            "categories": "Паста",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/snack-pasta-lasagnia.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/snack-pasta-lasagnia-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "21834",
+            "type": "extra",
+            "title": "Гіннесс пай",
+            "slug": "gines-paj-2",
+            "price": 65,
+            "description": "Телятина з овочами, тушеними в темному елі, під хрусткою скоринкою з листкового тіста  (тісто листкове, яловичина, морква, селера, томат, свіжий чебрець та розмарин, олія, сіль, перець)",
+            "categories": "Новинки",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/06/ginness.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/06/ginness-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "20935",
+            "type": "extra",
+            "title": "Пірамідка з цибулею",
+            "slug": "kilcya-cibuli",
+            "price": 65,
+            "description": "Цибулеві кільця, смажені в клярі. Порція - 20 шт (260г). Соуси не входять до вартості страви. Кожний третій соус - у подарунок!",
+            "categories": "Стартери",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/snack-onion-rolls.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/snack-onion-rolls-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "20082",
+            "type": "extra",
+            "title": "Картопля фрі + соус",
+            "slug": "kartoplya-fri",
+            "price": 34,
+            "description": "Картопля, смажена у фритюрі, часнична сіль.",
+            "categories": "Стартери",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/03/fri.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/03/fri-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "20151",
+            "type": "extra",
+            "title": "Сирні кульки",
+            "slug": "sirni-kulki",
+            "price": 45,
+            "description": "Хрусткі кульки з суміші трьох сирів, смажені у пікантній паніровці з кукурудзяних пластівців та волоських горіхів. Соус - у подарунок!",
+            "categories": "Стартери",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/snack-starter-сheeseballs.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/snack-starter-сheeseballs-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "20088",
+            "type": "extra",
+            "title": "Крильця Су Від",
+            "slug": "krila-buffalo",
+            "price": 69,
+            "description": "Хрусткі та соковиті курячі крильця, виготовлені за новітньою технологією Су Від! Час смаження у фритюрі - вчетверо коротший! 15 шт, соус - у подарунок!",
+            "categories": "Стартери",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/03/sousevide.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/03/sousevide-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "20325",
+            "type": "extra",
+            "title": "Крем-суп з білими грибами та моцарелою",
+            "slug": "sup-pyure",
+            "price": 45,
+            "description": "",
+            "categories": "Супи",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2012/12/soup.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2012/12/soup-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "20536",
+            "type": "extra",
+            "title": "Консоме з куркою та фетучині",
+            "slug": "bulon",
+            "price": 35,
+            "description": "Курячий бульйон, курка, паста фетучині, зелень",
+            "categories": "Супи",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/soup-broth.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/soup-broth-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "21836",
+            "type": "extra",
+            "title": "Гуакамоле",
+            "slug": "guakamole",
+            "price": 15,
+            "description": "Авокадо, лайм, томати, цибуля зелена, часник, перец халапеньо, кінза (коріандр), сіль, перець",
+            "categories": "2: Соуси",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/sauce-guacamole.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/sauce-guacamole-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "20159",
+            "type": "extra",
+            "title": "BBQ",
+            "slug": "bbq",
+            "price": 15,
+            "description": "Cоус томатний, цибуля, часник, оцет винний, патока, мед, сік лимона, олія, соус чилі, чорнослив, сіль, спеції",
+            "categories": "2: Соуси",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/sauce-bbq.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/sauce-bbq-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "20158",
+            "type": "extra",
+            "title": "Дана-блу",
+            "slug": "dana-blu",
+            "price": 15,
+            "description": "Майонез, сир дана блу, цукор, часник,сік лимона, перець чорний",
+            "categories": "2: Соуси",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/sauce-dana-blu.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/sauce-dana-blu-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "20065",
+            "type": "extra",
+            "title": "Часниковий",
+            "slug": "chasnikovij",
+            "price": 15,
+            "description": "Майонез, часник, бульйон грибний, петрушка зелена",
+            "categories": "2: Соуси",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/saice-garlic.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/saice-garlic-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "20383",
+            "type": "extra",
+            "title": "Фірмова гостра оливкова олія",
+            "slug": "maslo-mamamiya",
+            "price": 150,
+            "description": "Гостра олія власного виробництва. Готується виключно з оливкової олії «Екстра Вірджин» з додаванням сухого угорського перцю Чилі. Технологічний процес включає термічну обробку та витримку в дубових діжках на протязі декількох місяців.",
+            "categories": "2: Соуси",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/sauce-oil.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/sauce-oil-wpcf_170x170.jpg"
+            }
+        }
+    ],
+    "desserts": [
+        {
+            "extID": "22902",
+            "type": "sweet",
+            "title": "Тірамісу класичне",
+            "slug": "tiramisu-klasichne",
+            "price": 55,
+            "description": "Класичне поєднання збитого ніжного маскарпоне з легким печивом савоярді. Порція 130г",
+            "categories": "",
+            "recommended": "yes",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/10/Tiramisu_800х5001.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/10/Tiramisu_800х5001-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "22892",
+            "type": "sweet",
+            "title": "Чізкейк з арахісом та карамеллю",
+            "slug": "chizkejk-z-araxisovimi-gorishkami-ta-karamellyu",
+            "price": 65,
+            "description": "Порція 250г",
+            "categories": "",
+            "recommended": "yes",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/09/Чизкейк_800х600-wpcf_800x500.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/09/Чизкейк_800х600-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "20061",
+            "type": "sweet",
+            "title": "Брауні з вишенькою",
+            "slug": "brauni-c-vishnej",
+            "price": 45,
+            "description": "Бісквітне тісто, вишневий прошарок зі згущеним молоком, шоколадна глазур, карамель, вишенька",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2012/12/Брауни_800х600-wpcf_800x500.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2012/12/Брауни_800х600-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "22746",
+            "type": "sweet",
+            "title": "Cорбет малина",
+            "slug": "corbet-malina",
+            "price": 15,
+            "description": "Сорбет з малиною, власного виробництва. Порція 50г. Мінімальне замовлення - 4 порції.",
+            "categories": "",
+            "recommended": "no",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/06/сорбет-малина.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/06/сорбет-малина-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "22743",
+            "type": "sweet",
+            "title": "Сорбет манго",
+            "slug": "sorbet-mango",
+            "price": 15,
+            "description": "Сорбет із манго, власного виробництва. Порція 50г. Мінімальне замовлення - 4 порції.",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/06/сорбет-манго.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/06/сорбет-манго-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "22745",
+            "type": "sweet",
+            "title": "Сорбет маракуйя",
+            "slug": "sorbet-marakujya",
+            "price": 15,
+            "description": "Сорбет з маракуйєю, власного виробництва. Порція 50г. Мінімальне замовлення - 4 порції.",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/06/сорбет-маракуйя.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/06/сорбет-маракуйя-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "21986",
+            "type": "sweet",
+            "title": "Морозиво філадельфія",
+            "slug": "morozivo-filadelfiya",
+            "price": 15,
+            "description": "Ніжне вершкове морозиво власного виробництва. Порція 50г. Мінімальне замовлення - 4 порції.",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/06/филадельфия.-wpcf_800x500.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/06/филадельфия.-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "21985",
+            "type": "sweet",
+            "title": "Морозиво тірамісу",
+            "slug": "morozivo-tiramisu",
+            "price": 15,
+            "description": "Морозиво зі смаком тірамісу, власного виробництва. Порція 50г. Мінімальне замовлення - 4 порції.",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/06/тирамису-мороженое-2-wpcf_510x500.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/06/тирамису-мороженое-2-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "21991",
+            "type": "sweet",
+            "title": "Морозиво горіхове",
+            "slug": "morozivo-gorixove",
+            "price": 15,
+            "description": "Горіхове морозиво власного виробництва. Порція 50г. Мінімальне замовлення - 4 порції.",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/06/ореховое.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/06/ореховое-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "22744",
+            "type": "sweet",
+            "title": "Сорбет полуниця з м&#8217;ятою",
+            "slug": "sorbet-polunicya-z-myatoyu",
+            "price": 15,
+            "description": "Полунично-м\"ятний сорбет, власного виробництва. Порція 50г. Мінімальне замовлення - 4 порції.",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/06/сорбет-клубника-и-мята-wpcf_463x500.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/06/сорбет-клубника-и-мята-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "22767",
+            "type": "sweet",
+            "title": "Морозиво імбирне",
+            "slug": "morozivo-imbirne",
+            "price": 15,
+            "description": "Морозиво з білим шоколадом та цукатами з імбиру, власного виробництва. Порція 50г. Мінімальне замовлення - 4 порції.",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/06/мороженое-имбирь-и-белый-шоколад-wpcf_657x500.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/06/мороженое-имбирь-и-белый-шоколад-wpcf_170x170.jpg"
+            }
+        },
+        {
+            "extID": "22742",
+            "type": "sweet",
+            "title": "Сорбет чорниця",
+            "slug": "sorbet-chornicya-2",
+            "price": 15,
+            "description": "Сорбет з чорницею, власного виробництва. Порція 50г. Мінімальне замовлення - 4 порції.",
+            "categories": "",
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/06/чорниця.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/06/чорниця-wpcf_170x170.jpg"
+            }
+        }
+    ],
+    "pizzas": [
+        {
+            "slug": "tryufeli-z-artishokom",
+            "title": "Трюфелі з артишоком",
+            "type": "pizza",
+            "extID": "22339",
+            "emotionalDescription": "Розкіш стає доступною!",
+            "description": "Соус рікота, куряче філе, артишок маринований, трюфель чорний",
+            "toppings": [],
+            "categories": "1: М’ясні",
+            "sauce": "20283",
+            "specialRecipe": true,
+            "customPrice": 93.7,
+            "recommended": "yes",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2014/01/arti.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2014/01/arti-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "modilyani",
+            "title": "Модильяні",
+            "type": "pizza",
+            "extID": "21851",
+            "emotionalDescription": "Поєднання класичних італійських коренів та вишуканого французького смаку!",
+            "description": "Класичний соус, качка, маринований солодкий перець, сир фета, каперси, орегано.",
+            "toppings": [],
+            "categories": "0: Популярні, 1: М’ясні",
+            "sauce": "20277",
+            "specialRecipe": true,
+            "customPrice": 45.4,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-modigliani.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-modigliani-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "pekin-dak-xauz",
+            "title": "Пекін Дак Хауз",
+            "type": "pizza",
+            "extID": "20131",
+            "emotionalDescription": "Найбільш відома качка китайської кухні!",
+            "description": "Соус барбекю, подвійна порція качки (філе), смаженої в медовому соусі, імбир, чорнослив, стебла бамбука мариновані.",
+            "toppings": {
+                "20177": 1,
+                "20198": 1,
+                "20232": 1,
+                "20247": 2
+            },
+            "categories": "0: Популярні, 1: М’ясні",
+            "sauce": "20280",
+            "specialRecipe": false,
+            "customPrice": 0,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-beijing-duck.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-beijing-duck-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "paperoni",
+            "title": "Папероні",
+            "type": "pizza",
+            "extID": "20119",
+            "emotionalDescription": "Справжня італійська гостра папероні!",
+            "description": "Класичний соус, італійська папероні, печериці, маринована цибуля.",
+            "toppings": {
+                "20201": 1,
+                "20235": 1,
+                "20250": 1
+            },
+            "categories": "1: М’ясні",
+            "sauce": "20277",
+            "specialRecipe": false,
+            "customPrice": 0,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-pepperoni.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-pepperoni-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "bbq",
+            "title": "BBQ",
+            "type": "pizza",
+            "extID": "20297",
+            "emotionalDescription": "Справжній пікнік удома!",
+            "description": "Соус барбекю, телятина рубана, бекон, маринована цибуля, печериці.",
+            "toppings": {
+                "20168": 1,
+                "20201": 1,
+                "20235": 1,
+                "20259": 1
+            },
+            "categories": "1: М’ясні",
+            "sauce": "20280",
+            "specialRecipe": false,
+            "customPrice": 0,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-bbq.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-bbq-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "godfazer",
+            "title": "Годфазер",
+            "type": "pizza",
+            "extID": "20057",
+            "emotionalDescription": "Улюблена піца справжніх чоловіків!",
+            "description": "Соус барбекю, ковбаски мисливські, бекон, печериці, маринована цибуля, корнішони.",
+            "toppings": {
+                "20168": 1,
+                "20183": 1,
+                "20201": 1,
+                "20235": 1,
+                "20256": 1
+            },
+            "categories": "1: М’ясні",
+            "sauce": "20280",
+            "specialRecipe": false,
+            "customPrice": 0,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-godfather.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-godfather-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "paperoni-spajs",
+            "title": "Папероні Спайс",
+            "type": "pizza",
+            "extID": "20124",
+            "emotionalDescription": "Деякі люблять погостріше!",
+            "description": "Класичний соус, італійська гостра ковбаса папероні, сир фета, ананаси, часник.",
+            "toppings": {
+                "20165": 1,
+                "20223": 1,
+                "20250": 1
+            },
+            "categories": "1: М’ясні",
+            "sauce": "20277",
+            "specialRecipe": false,
+            "customPrice": 0,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-pepperoni-spice.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-pepperoni-spice-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "mit-suprim",
+            "title": "Міт Супрім",
+            "type": "pizza",
+            "extID": "20102",
+            "emotionalDescription": "Піца з м\"ясом, м\"ясом та м\"ясом!",
+            "description": "Класичний соус, шинка, бекон, курка-барбекю, телятина рубана, салямі.",
+            "toppings": {
+                "20168": 1,
+                "20244": 1,
+                "20253": 1,
+                "20259": 1,
+                "20267": 1
+            },
+            "categories": "1: М’ясні",
+            "sauce": "20277",
+            "specialRecipe": false,
+            "customPrice": 74.5,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-meat-supreme.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-meat-supreme-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "chiz-suprim",
+            "title": "Чіз Супрім",
+            "type": "pizza",
+            "extID": "20138",
+            "emotionalDescription": "Піца та сир - і нічого зайвого!",
+            "description": "Класичний соус, сир (фета, пармезан, моцарела, помаранчевий чеддер, російський ), орегано.",
+            "toppings": {
+                "20214": 1,
+                "20217": 1,
+                "20220": 1,
+                "20223": 1
+            },
+            "categories": "2: Вегетаріанські",
+            "sauce": "20277",
+            "specialRecipe": false,
+            "customPrice": 0,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-cheese-supreme.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-cheese-supreme-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "firmova-mamamiya",
+            "title": "Мамаміа!",
+            "type": "pizza",
+            "extID": "20302",
+            "emotionalDescription": "Фірмова піца від шефа!",
+            "description": "Класичний соус, шинка, салямі, ананаси, червоний солодкий перець.",
+            "toppings": {
+                "20165": 1,
+                "20208": 1,
+                "20244": 1,
+                "20253": 1
+            },
+            "categories": "1: М’ясні",
+            "sauce": "20277",
+            "specialRecipe": false,
+            "customPrice": 0,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-mamamia.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-mamamia-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "virdzhin",
+            "title": "Вірджин",
+            "type": "pizza",
+            "extID": "20045",
+            "emotionalDescription": "Легка вегетаріанська піца",
+            "description": "Білий соус рікота,  каперси, броколі, печериці, оливки, кукурудза, червоний солодкий перець, сіль часнична.",
+            "toppings": {
+                "20171": 1,
+                "20180": 1,
+                "20186": 1,
+                "20201": 1,
+                "20208": 1,
+                "20229": 1
+            },
+            "categories": "0: Популярні, 2: Вегетаріанські",
+            "sauce": "20283",
+            "specialRecipe": false,
+            "customPrice": 0,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-virgin.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-virgin-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "atlantida",
+            "title": "Атлантида",
+            "type": "pizza",
+            "extID": "20040",
+            "emotionalDescription": "Подих далеких морів",
+            "description": "Класичний соус, морський коктейль (восьминоги, мідії, креветки, кальмари), томати, лимон, зелень.",
+            "toppings": {
+                "20192": 1,
+                "20205": 1
+            },
+            "categories": "3: Морські",
+            "sauce": "20277",
+            "specialRecipe": false,
+            "customPrice": 0,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2012/12/Pizza_atlantida-wpcf_800x500.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2012/12/Pizza_atlantida-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "gavaii",
+            "title": "Гаваї",
+            "type": "pizza",
+            "extID": "20050",
+            "emotionalDescription": "Улюблена піца дітлахів!",
+            "description": "Класичний соус, курка барбекю, ананаси, червоний солодкий перець.",
+            "toppings": {
+                "20165": 1,
+                "20208": 1,
+                "20267": 1
+            },
+            "categories": "1: М’ясні",
+            "sauce": "20277",
+            "specialRecipe": false,
+            "customPrice": 0,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-hawaii.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-hawaii-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "diablo",
+            "title": "Дьябло",
+            "type": "pizza",
+            "extID": "20067",
+            "emotionalDescription": "Вогонь і пристрасть!",
+            "description": "Соус барбекю, подвійна порція мисливських ковбасок, гострий перець халапеньйо.",
+            "toppings": {
+                "20238": 1,
+                "20256": 2
+            },
+            "categories": "1: М’ясні",
+            "sauce": "20280",
+            "specialRecipe": false,
+            "customPrice": 0,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2012/12/Pizza_diablo-2-wpcf_800x500.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2012/12/Pizza_diablo-2-wpcf_187x187.jpg"
+            }
+        },
+        {
+            "slug": "kantri",
+            "title": "Кантрі",
+            "type": "pizza",
+            "extID": "20079",
+            "emotionalDescription": "Класична, всіма улюблена, піца",
+            "description": "Класичний соус, шинка, салямі, томати, печериці.",
+            "toppings": {
+                "20201": 1,
+                "20205": 1,
+                "20244": 1,
+                "20253": 1
+            },
+            "categories": "1: М’ясні",
+            "sauce": "20277",
+            "specialRecipe": false,
+            "customPrice": 0,
+            "recommended": "",
+            "images": {
+                "big": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-country.jpg",
+                "small": "http://mamamia.ua/wp-content/uploads/2013/10/pizza-country-wpcf_187x187.jpg"
+            }
+        }
+    ]
+}

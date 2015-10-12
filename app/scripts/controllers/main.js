@@ -16,14 +16,21 @@ app.factory('MenuFactory', ['$http', function ($http) {
             return $http.get('/menu.json');
         }
     };
-}])
+}]);
 
 app.controller('MainCtrl', ['$scope', 'MenuFactory', function ($scope, MenuFactory) {
-  		$scope.pizzas = [];
-  		
-  		var whenDataLoaded = function (data) {
-  			$scope.pizzas = data.pizzas;
-  		}
-  		MenuFactory.getMenuFuture().success(whenDataLoaded);
+	$scope.pizzas = [];
+	$scope.cart = [];
 
-  }]);
+	$scope.totalPrice = 0;
+
+	$scope.order = function() {
+		$scope.totalPrice+=parseInt(this.pizza.customPrice);
+		$scope.cart.push(this.pizza);
+	};
+	
+	var whenDataLoaded = function (data) {
+		$scope.pizzas = data.pizzas;
+	}
+	MenuFactory.getMenuFuture().success(whenDataLoaded);
+}]);

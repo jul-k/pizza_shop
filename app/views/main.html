@@ -1,35 +1,57 @@
 <div class="cart-btn">
-  <button type="button" class="btn btn-dark btn-lg">
-    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> &#8372;50.00
-  </button>
-  <span>3</span>
+    <button type="button" class="btn btn-dark btn-lg">
+        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> &#8372;197.00
+    </button>
+    <span>3</span>
 </div>
-
-
+<div class="cart-dropdown">
+    <span></span>
+    <!--Small rectangle to overlap Cart button-->
+    <div class="body">
+        <table>
+            <tbody>
+                <tr class="order">
+                    <td>
+                        <div class="delete"></div><a href="#">{{pizza.title}}</a></td>
+                    <td>
+                        <input type="text" value="1">
+                    </td>
+                    <td class="price">{{pizza.customPrice}}&#8372;</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="group">
+        <div class="buttons">
+            <a class="btn btn-outlined-invert" href="#">Cancel</a>
+            <a class="btn btn-outlined-invert" href="#">To cart</a>
+        </div>
+        <div class="total">{{totalPrice}}</div>
+    </div>
+</div>
 <section class="catalog-grid">
     <div class="container">
         <h2 class="dark-color">Меню</h2>
         <div class="row">
             <div class="item" ng-repeat='pizza in pizzas'>
-              <!--Tile-->
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="title">
-                    <div class="price-label">{{pizza.customPrice}}&#8372;</div>
-                    <div class="product">
-                      <a href="#">
-                        <img src="{{pizza.images.small}}" alt="1">
-                        <span class="title-overlay"></span>
-                      </a>
+                <!--Tile-->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="title">
+                        <div class="price-label">{{pizza.customPrice}}</div>
+                        <div class="product">
+                            <a href="#">
+                                <img src="{{pizza.images.small}}" alt="1">
+                                <span class="title-overlay"></span>
+                            </a>
+                        </div>
+                        <footer>
+                            <a href="#">{{pizza.title}}</a>
+                            <span>{{pizza.description}}</span>
+                            <button class="btn btn-primary" ng-click='order()'>Замовити</button>
+                        </footer>
                     </div>
-                    <footer>
-                        <a href="#">{{pizza.title}}</a>
-                        <span>{{pizza.description}}</span>
-                        <button class="btn btn-primary">Замовити</button>
-                    </footer>
                 </div>
-            </div>
             </div>
         </div>
     </div>
 </section>
-

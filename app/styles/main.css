@@ -79,7 +79,7 @@ footer a{
   transition: all .3s;
 }
 
-footer a:hover {
+footer a:hover{
   color: #292c2e;
   text-decoration: none;
 }
@@ -117,4 +117,101 @@ footer>span {
 
 .footer {
   display: none;
+}
+
+.cart-dropdown{
+  border: 1px solid #2e6da4;
+  width: 400px;
+}
+
+.body {
+  width: 400px;
+}
+
+table {
+  width: 400px;
+}
+
+.delete {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(http://the8guild.com/themes/html/limo/v1.4/img/forms/delete.png) no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    transition: all .3s;
+}
+
+.order td a{
+  color: #292c2e;
+  font-family: 'Coming Soon', sans-serif;
+  transition: all .3s;
+  font-size: 18px;
+  margin: 10px;
+  text-align: center;
+}
+
+.order td a:hover {
+  color: #607d8b;
+  text-decoration: none;
+}
+
+.price {
+  font-weight: 900;
+  font-size: 18px;
+  color: #292c2e;
+  font-family: 'Coming Soon', sans-serif;
+  margin: 10px;
+  text-align: center;
+}
+
+input {
+  width: 40px;
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  font-size: 18px;
+  color: #292c2e;
+  font-family: 'Coming Soon', sans-serif;
+}
+
+.group {
+  background-color: #607d8b;
+  /*text-align: center;*/
+  position: relative;
+}
+
+.buttons, .total{
+  display: inline-block;
+}
+
+.buttons{
+  text-align: center;
+}
+
+.btn-outlined-invert {
+  background-color: #fff;
+  border-radius: 0px;
+  color: #607d8b;
+  margin: 20px 30px;
+  font-size: 18px;
+  transition: all .3s;
+}
+
+.btn-outlined-invert:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.total {
+  color: #fff;
+  font-weight: 900;
+  font-size: 23px;
+  float: right;
+  position: absolute;
+  top: 29%;
+  right: 4%;
 }

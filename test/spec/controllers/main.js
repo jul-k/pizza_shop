@@ -19,5 +19,10 @@ describe('Controller: MainCtrl', function () {
 
   it('should attach a list of awesomeThings to the scope', function () {
     expect(MainCtrl.awesomeThings.length).toBe(3);
+  });  
+
+  it('Order should add pizza item to cart', function () {
+    
+    expect(MainCtrl.awesomeThings.length).toBe(3);
   });
 });

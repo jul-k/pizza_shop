@@ -172,7 +172,7 @@ input {
   width: 40px;
   padding: 5px;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   font-size: 18px;
   color: #292c2e;
   font-family: 'Coming Soon', sans-serif;
@@ -214,4 +214,9 @@ input {
   position: absolute;
   top: 29%;
   right: 4%;
+}
+
+.glyphicon-plus, .glyphicon-minus {
+  border: 1px #000 solid;
+  padding: 2px;
 }

@@ -1,32 +1,38 @@
-<div class="cart-btn">
+<div class="cart-btn" ng-click='checkCartLength()'>
     <button type="button" class="btn btn-dark btn-lg">
-        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> &#8372;197.00
+        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> &#8372;{{totalPrice}}
     </button>
-    <span>3</span>
+    <span>{{totalItems}}</span>
 </div>
-<div class="cart-dropdown">
+<div class="cart-dropdown" ng-show='showMe'>
     <span></span>
     <!--Small rectangle to overlap Cart button-->
     <div class="body">
         <table>
             <tbody>
-                <tr class="order">
+                <tr class="order" ng-repeat='(title, entry) in cart'>
                     <td>
-                        <div class="delete"></div><a href="#">{{pizza.title}}</a></td>
-                    <td>
-                        <input type="text" value="1">
+                        <div class="delete" ng-click='remove(title)'></div><a href="#">{{title}}</a>
                     </td>
-                    <td class="price">{{pizza.customPrice}}&#8372;</td>
+                    <td>
+                        <span class='glyphicon glyphicon-minus' ng-click='minusItem(title)'></span>
+                        <input type="text" value="{{entry.count}}">
+                        <span class='glyphicon glyphicon-plus' ng-click='plusItem(title)'></span>
+                    </td>
+
+                    <td class="price">{{entry.price*entry.count | as_number}}&#8372;</td>
                 </tr>
             </tbody>
         </table>
     </div>
     <div class="group">
+
         <div class="buttons">
-            <a class="btn btn-outlined-invert" href="#">Cancel</a>
-            <a class="btn btn-outlined-invert" href="#">To cart</a>
+            <a class="btn btn-outlined-invert" ng-click='showMe = false'>Hide</a>
+            <a class="btn btn-outlined-invert" ng-click='later()'>Buy</a>
         </div>
-        <div class="total">{{totalPrice}}</div>
+
+        <div class="total">{{totalPrice}}&#8372;</div>
     </div>
 </div>
 <section class="catalog-grid">
@@ -37,7 +43,7 @@
                 <!--Tile-->
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="title">
-                        <div class="price-label">{{pizza.customPrice}}</div>
+                        <div class="price-label">{{pizza.customPrice | as_number}}</div>
                         <div class="product">
                             <a href="#">
                                 <img src="{{pizza.images.small}}" alt="1">
@@ -47,7 +53,7 @@
                         <footer>
                             <a href="#">{{pizza.title}}</a>
                             <span>{{pizza.description}}</span>
-                            <button class="btn btn-primary" ng-click='order()'>Замовити</button>
+                            <button class="btn btn-primary" ng-click='addToCart()'>Замовити</button>
                         </footer>
                     </div>
                 </div>

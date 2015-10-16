@@ -1,9 +1,10 @@
 <div class="cart-btn" ng-click='checkCartLength()'>
     <button type="button" class="btn btn-dark btn-lg">
-        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> &#8372;{{totalPrice}}
+        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>{{totalPrice}}
     </button>
     <span>{{totalItems}}</span>
 </div>
+
 <div class="cart-dropdown" ng-show='showMe'>
     <span></span>
     <!--Small rectangle to overlap Cart button-->
@@ -20,7 +21,7 @@
                         <span class='glyphicon glyphicon-plus' ng-click='plusItem(title)'></span>
                     </td>
 
-                    <td class="price">{{entry.price*entry.count | as_number}}&#8372;</td>
+                    <td class="price">{{entry.price*entry.count | as_number}} &#8372;</td>
                 </tr>
             </tbody>
         </table>
@@ -28,11 +29,11 @@
     <div class="group">
 
         <div class="buttons">
-            <a class="btn btn-outlined-invert" ng-click='showMe = false'>Hide</a>
-            <a class="btn btn-outlined-invert" ng-click='later()'>Buy</a>
+            <a class="btn btn-outlined-invert" ng-click='showMe = false'>Сховати</a>
+            <a class="btn btn-outlined-invert" ng-click='later()'>Купити</a>
         </div>
 
-        <div class="total">{{totalPrice}}&#8372;</div>
+        <div class="total">{{totalPrice}} &#8372;</div>
     </div>
 </div>
 <section class="catalog-grid">

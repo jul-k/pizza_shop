@@ -1,6 +1,5 @@
 'use strict';
 
-
 /**
  * @ngdoc function
  * @name doitApp.controller:MainCtrl
@@ -10,7 +9,6 @@
  */
 
 var app = angular.module('doitApp');
-
 
 app.factory('MenuFactory', ['$http', function($http) {
     return {
@@ -27,8 +25,8 @@ app.controller('MainCtrl', ['$scope', 'MenuFactory', function($scope, MenuFactor
     $scope.totalPrice = 0;
 
     $scope.totalItems = 0;
-    $scope.showMe = false;
 
+    $scope.showMe = false;
 
     // $scope.hide = false;
 
@@ -40,8 +38,8 @@ app.controller('MainCtrl', ['$scope', 'MenuFactory', function($scope, MenuFactor
         var order = $scope.cart[propertyName] || {
             price: propertyPrice,
             count: 0
-        }
-        order.count += 1
+        };
+        order.count += 1;
         $scope.cart[propertyName] = order;
 
         // return $scope.hide = false;
@@ -52,55 +50,58 @@ app.controller('MainCtrl', ['$scope', 'MenuFactory', function($scope, MenuFactor
     };
     MenuFactory.getMenuFuture().success(whenDataLoaded);
 
-    $scope.$watch('cart', function(newVal, oldVal) {
+    $scope.$watch('cart', function(newVal) {
 
-    	var totalPrice = 0;
-    	var totalItems = 0;
-		for (var key in newVal) {
-				var order = newVal[key];
-				totalItems += order.count;
-				totalPrice += parseInt(order.price*order.count);
-			};
-		//Do your logic with the property here
-		$scope.totalPrice = totalPrice;
-    	$scope.totalItems = totalItems;
+        var totalPrice = 0;
+        var totalItems = 0;
+        for (var key in newVal) {
+            var order = newVal[key];
+            totalItems += order.count;
+            totalPrice += parseInt(order.price * order.count);
+        };
+        //Do your logic with the property here
+        $scope.totalPrice = totalPrice;
+        $scope.totalItems = totalItems;
     }, true);
 
-    $scope.remove = function (title) {
-    	alert('Ви впевнені, що бажаєте видалити піццу "' + title + '" з корзини?');
+    $scope.remove = function(title) {
+        var ok = confirm('Ви впевнені, що бажаєте видалити піццу "' + title + '" з корзини?');
+        if (!ok) {
+            return;
+        }
         delete $scope.cart[title];
-        
+
         if (Object.keys($scope.cart).length === 0) {
-			$scope.showMe = false;
-		}
-    };  
+            $scope.showMe = false;
+        }
+    };
 
     $scope.minusItem = function(title) {
-		var order = $scope.cart[title];
-		order.count-=1;
+        var order = $scope.cart[title];
+        order.count -= 1;
 
-		if(order.count==0) {
-			$scope.remove(title);
-		}
-	};  
+        if (order.count == 0) {
+            $scope.remove(title);
+        }
+    };
 
-	$scope.plusItem = function(title) {
-		var order = $scope.cart[title];
-		order.count+=1;
-	};  
+    $scope.plusItem = function(title) {
+        var order = $scope.cart[title];
+        order.count += 1;
+    };
 
-	$scope.later = function(){
-		alert('Maybe later :)');
-	};
+    $scope.later = function() {
+        alert('Можливо, пізніше. :)');
+    };
 
-	$scope.checkCartLength = function() {
+    $scope.checkCartLength = function() {
 
-		if ($scope.totalItems == 0) {
-			alert('You need to order something.');
-		} else {
-			$scope.showMe = true;
-		}	
-	};
+        if ($scope.totalItems == 0) {
+            alert('Спочатку Ви маєте щось замовити.');
+        } else {
+            $scope.showMe = true;
+        }
+    };
 
 }]);
 

@@ -99,10 +99,9 @@ app.controller('MainCtrl', ['$scope', 'MenuFactory', function($scope, MenuFactor
         if ($scope.totalItems == 0) {
             alert('Спочатку Ви маєте щось замовити.');
         } else {
-            $scope.showMe = true;
+            $scope.showMe = !$scope.showMe;
         }
     };
-
 }]);
 
 app.filter('as_number', function() {

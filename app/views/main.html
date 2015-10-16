@@ -46,13 +46,11 @@
                     <div class="title">
                         <div class="price-label">{{pizza.customPrice | as_number}}</div>
                         <div class="product">
-                            <a href="#">
-                                <img src="{{pizza.images.small}}" alt="1">
-                                <span class="title-overlay"></span>
-                            </a>
+                            <img src="{{pizza.images.small}}" alt="1">
+                            <span class="title-overlay"></span>
                         </div>
                         <footer>
-                            <a href="#">{{pizza.title}}</a>
+                            <h3>{{pizza.title}}</h3>
                             <span>{{pizza.description}}</span>
                             <button class="btn btn-primary" ng-click='addToCart()'>Замовити</button>
                         </footer>

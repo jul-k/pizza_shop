@@ -58,6 +58,7 @@ body {
   font-size: 40px;
   color: #fff;
   text-shadow: 2px 2px #000;
+  text-transform: uppercase;
 }
 
 .price-label {
@@ -87,7 +88,7 @@ footer{
   border-top: 1px solid #B2B2B2; 
 }
 
-footer a{
+footer h3{
   color: #607d8b;
   display: block;
   font-size: 20px;

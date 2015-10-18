@@ -30,11 +30,11 @@ app.controller('MainCtrl', ['$scope', 'MenuFactory', function($scope, MenuFactor
 
     // $scope.hide = false;
 
-    $scope.addToCart = function() {
+    $scope.addToCart = function(pizza) {
         // todo: another apporach
-        var propertyPrice = this.pizza.customPrice;
+        var propertyPrice = pizza.customPrice;
 
-        var propertyName = this.pizza.title;
+        var propertyName = pizza.title;
         var order = $scope.cart[propertyName] || {
             price: propertyPrice,
             count: 0
@@ -64,8 +64,9 @@ app.controller('MainCtrl', ['$scope', 'MenuFactory', function($scope, MenuFactor
         $scope.totalItems = totalItems;
     }, true);
 
-    $scope.remove = function(title) {
-        var ok = confirm('Ви впевнені, що бажаєте видалити піццу "' + title + '" з корзини?');
+    $scope.remove = function(title, confirmed) {
+
+        var ok = confirmed || confirm('Ви впевнені, що бажаєте видалити піццу "' + title + '" з корзини?');
         if (!ok) {
             return;
         }

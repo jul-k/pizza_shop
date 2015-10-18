@@ -1,0 +1,480 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.10.0
+3 info using node@v0.10.25
+4 verbose readDependencies loading dependencies from /home/jul/github/DoIt/package.json
+5 verbose install where, deps [ '/home/jul/github/DoIt',
+5 verbose install   [ 'grunt',
+5 verbose install     'grunt-angular-templates',
+5 verbose install     'grunt-autoprefixer',
+5 verbose install     'grunt-concurrent',
+5 verbose install     'grunt-contrib-clean',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-connect',
+5 verbose install     'grunt-contrib-copy',
+5 verbose install     'grunt-contrib-cssmin',
+5 verbose install     'grunt-contrib-htmlmin',
+5 verbose install     'grunt-contrib-imagemin',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-filerev',
+5 verbose install     'grunt-google-cdn',
+5 verbose install     'grunt-karma',
+5 verbose install     'grunt-newer',
+5 verbose install     'grunt-ng-annotate',
+5 verbose install     'grunt-svgmin',
+5 verbose install     'grunt-usemin',
+5 verbose install     'grunt-wiredep',
+5 verbose install     'jit-grunt',
+5 verbose install     'jshint-stylish',
+5 verbose install     'karma-jasmine',
+5 verbose install     'karma-phantomjs-launcher',
+5 verbose install     'time-grunt' ] ]
+6 verbose install where, peers [ '/home/jul/github/DoIt', [] ]
+7 verbose installManyTop reading for lifecycle /home/jul/github/DoIt/package.json
+8 info preinstall doit@
+9 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/babel-core/package.json
+10 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/babel-loader/package.json
+11 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/collections/package.json
+12 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt/package.json
+13 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-angular-templates/package.json
+14 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-autoprefixer/package.json
+15 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-concurrent/package.json
+16 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-contrib-clean/package.json
+17 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-contrib-concat/package.json
+18 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-contrib-connect/package.json
+19 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-contrib-copy/package.json
+20 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-contrib-cssmin/package.json
+21 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-contrib-htmlmin/package.json
+22 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-contrib-imagemin/package.json
+23 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-contrib-jshint/package.json
+24 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-contrib-uglify/package.json
+25 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-contrib-watch/package.json
+26 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-filerev/package.json
+27 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-google-cdn/package.json
+28 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-karma/package.json
+29 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-newer/package.json
+30 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-ng-annotate/package.json
+31 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-svgmin/package.json
+32 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-template-jasmine-requirejs/package.json
+33 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-usemin/package.json
+34 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/grunt-wiredep/package.json
+35 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/jasmine/package.json
+36 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/jasmine-core/package.json
+37 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/jit-grunt/package.json
+38 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/jshint-stylish/package.json
+39 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/karma/package.json
+40 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/karma-browserify/package.json
+41 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/karma-jasmine/package.json
+42 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/karma-phantomjs-launcher/package.json
+43 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/karma-webpack/package.json
+44 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/phantomjs/package.json
+45 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/time-grunt/package.json
+46 verbose installManyTop reading scoped package data from /home/jul/github/DoIt/node_modules/webpack/package.json
+47 info package.json grunt@0.4.5 No license field.
+48 info package.json grunt-contrib-clean@0.6.0 No license field.
+49 info package.json grunt-google-cdn@0.4.3 license should be a valid SPDX license expression
+50 info package.json karma-phantomjs-launcher@0.1.4 No README data
+51 info package.json collections@1.2.4 No license field.
+52 info package.json grunt-angular-templates@0.5.7 No license field.
+53 info package.json grunt-contrib-concat@0.5.1 No license field.
+54 info package.json grunt-contrib-connect@0.9.0 No license field.
+55 info package.json grunt-contrib-copy@0.7.0 No license field.
+56 info package.json grunt-contrib-cssmin@0.12.3 No license field.
+57 info package.json grunt-contrib-htmlmin@0.4.0 No license field.
+58 info package.json grunt-contrib-imagemin@0.9.4 No license field.
+59 info package.json grunt-contrib-uglify@0.7.0 No license field.
+60 info package.json grunt-contrib-watch@0.6.1 No license field.
+61 info package.json grunt-filerev@2.3.1 license should be a valid SPDX license expression
+62 info package.json grunt-svgmin@2.0.1 No license field.
+63 info package.json grunt-template-jasmine-requirejs@0.2.3 license should be a valid SPDX license expression
+64 info package.json grunt-wiredep@2.0.0 No license field.
+65 verbose readDependencies loading dependencies from /home/jul/github/DoIt/package.json
+66 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/babel-core/package.json
+67 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/babel-loader/package.json
+68 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/collections/package.json
+69 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt/package.json
+70 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-angular-templates/package.json
+71 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-autoprefixer/package.json
+72 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-concurrent/package.json
+73 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-contrib-clean/package.json
+74 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-contrib-concat/package.json
+75 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-contrib-connect/package.json
+76 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-contrib-copy/package.json
+77 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-contrib-cssmin/package.json
+78 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-contrib-htmlmin/package.json
+79 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-contrib-imagemin/package.json
+80 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-contrib-jshint/package.json
+81 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-contrib-uglify/package.json
+82 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-contrib-watch/package.json
+83 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-filerev/package.json
+84 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-google-cdn/package.json
+85 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-karma/package.json
+86 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-newer/package.json
+87 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-ng-annotate/package.json
+88 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-svgmin/package.json
+89 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-template-jasmine-requirejs/package.json
+90 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-usemin/package.json
+91 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/grunt-wiredep/package.json
+92 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/jasmine/package.json
+93 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/jasmine-core/package.json
+94 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/jit-grunt/package.json
+95 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/jshint-stylish/package.json
+96 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/karma/package.json
+97 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/karma-browserify/package.json
+98 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/karma-jasmine/package.json
+99 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/karma-phantomjs-launcher/package.json
+100 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/karma-webpack/package.json
+101 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/phantomjs/package.json
+102 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/time-grunt/package.json
+103 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/webpack/package.json
+104 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/.bin/jasmine/package.json
+105 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/.bin/karma/package.json
+106 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/.bin/phantomjs/package.json
+107 verbose targetResolver reading package data from /home/jul/github/DoIt/node_modules/.bin/webpack/package.json
+108 verbose already installed skipping grunt-karma@* /home/jul/github/DoIt
+109 verbose already installed skipping grunt-google-cdn@^0.4.3 /home/jul/github/DoIt
+110 verbose already installed skipping grunt-newer@^1.1.0 /home/jul/github/DoIt
+111 verbose already installed skipping grunt-ng-annotate@^0.9.2 /home/jul/github/DoIt
+112 verbose already installed skipping grunt-svgmin@^2.0.0 /home/jul/github/DoIt
+113 verbose already installed skipping grunt-usemin@^3.0.0 /home/jul/github/DoIt
+114 verbose already installed skipping grunt-wiredep@^2.0.0 /home/jul/github/DoIt
+115 verbose already installed skipping jit-grunt@^0.9.1 /home/jul/github/DoIt
+116 verbose already installed skipping jshint-stylish@^1.0.0 /home/jul/github/DoIt
+117 verbose already installed skipping karma-jasmine@* /home/jul/github/DoIt
+118 verbose already installed skipping karma-phantomjs-launcher@* /home/jul/github/DoIt
+119 verbose already installed skipping time-grunt@^1.0.0 /home/jul/github/DoIt
+120 verbose already installed skipping grunt-autoprefixer@^2.0.0 /home/jul/github/DoIt
+121 verbose already installed skipping grunt@^0.4.5 /home/jul/github/DoIt
+122 verbose already installed skipping grunt-angular-templates@^0.5.7 /home/jul/github/DoIt
+123 verbose already installed skipping grunt-concurrent@^1.0.0 /home/jul/github/DoIt
+124 verbose already installed skipping grunt-contrib-clean@^0.6.0 /home/jul/github/DoIt
+125 verbose already installed skipping grunt-contrib-connect@^0.9.0 /home/jul/github/DoIt
+126 verbose already installed skipping grunt-contrib-concat@^0.5.0 /home/jul/github/DoIt
+127 verbose already installed skipping grunt-contrib-copy@^0.7.0 /home/jul/github/DoIt
+128 verbose already installed skipping grunt-contrib-cssmin@^0.12.0 /home/jul/github/DoIt
+129 verbose already installed skipping grunt-contrib-htmlmin@^0.4.0 /home/jul/github/DoIt
+130 verbose already installed skipping grunt-contrib-imagemin@^0.9.2 /home/jul/github/DoIt
+131 verbose already installed skipping grunt-contrib-jshint@^0.11.0 /home/jul/github/DoIt
+132 verbose already installed skipping grunt-contrib-uglify@^0.7.0 /home/jul/github/DoIt
+133 verbose already installed skipping grunt-contrib-watch@^0.6.1 /home/jul/github/DoIt
+134 verbose already installed skipping grunt-filerev@^2.1.2 /home/jul/github/DoIt
+135 silly install resolved []
+136 info build /home/jul/github/DoIt
+137 info linkStuff doit@
+138 silly linkStuff doit@ has /home/jul/github as its parent node_modules
+139 verbose linkBins doit@
+140 verbose linkMans doit@
+141 verbose rebuildBundles doit@
+142 verbose rebuildBundles [ '.bin',
+142 verbose rebuildBundles   'babel-core',
+142 verbose rebuildBundles   'babel-loader',
+142 verbose rebuildBundles   'collections',
+142 verbose rebuildBundles   'grunt',
+142 verbose rebuildBundles   'grunt-angular-templates',
+142 verbose rebuildBundles   'grunt-autoprefixer',
+142 verbose rebuildBundles   'grunt-concurrent',
+142 verbose rebuildBundles   'grunt-contrib-clean',
+142 verbose rebuildBundles   'grunt-contrib-concat',
+142 verbose rebuildBundles   'grunt-contrib-connect',
+142 verbose rebuildBundles   'grunt-contrib-copy',
+142 verbose rebuildBundles   'grunt-contrib-cssmin',
+142 verbose rebuildBundles   'grunt-contrib-htmlmin',
+142 verbose rebuildBundles   'grunt-contrib-imagemin',
+142 verbose rebuildBundles   'grunt-contrib-jshint',
+142 verbose rebuildBundles   'grunt-contrib-uglify',
+142 verbose rebuildBundles   'grunt-contrib-watch',
+142 verbose rebuildBundles   'grunt-filerev',
+142 verbose rebuildBundles   'grunt-google-cdn',
+142 verbose rebuildBundles   'grunt-karma',
+142 verbose rebuildBundles   'grunt-newer',
+142 verbose rebuildBundles   'grunt-ng-annotate',
+142 verbose rebuildBundles   'grunt-svgmin',
+142 verbose rebuildBundles   'grunt-template-jasmine-requirejs',
+142 verbose rebuildBundles   'grunt-usemin',
+142 verbose rebuildBundles   'grunt-wiredep',
+142 verbose rebuildBundles   'jasmine',
+142 verbose rebuildBundles   'jasmine-core',
+142 verbose rebuildBundles   'jit-grunt',
+142 verbose rebuildBundles   'jshint-stylish',
+142 verbose rebuildBundles   'karma',
+142 verbose rebuildBundles   'karma-browserify',
+142 verbose rebuildBundles   'karma-jasmine',
+142 verbose rebuildBundles   'karma-phantomjs-launcher',
+142 verbose rebuildBundles   'karma-webpack',
+142 verbose rebuildBundles   'phantomjs',
+142 verbose rebuildBundles   'time-grunt',
+142 verbose rebuildBundles   'webpack' ]
+143 verbose rebuild bundle /home/jul/github/DoIt/node_modules/babel-core
+144 info build /home/jul/github/DoIt/node_modules/babel-core
+145 info preinstall babel-core@5.8.25
+146 info linkStuff babel-core@5.8.25
+147 silly linkStuff babel-core@5.8.25 has /home/jul/github/DoIt/node_modules as its parent node_modules
+148 verbose linkBins babel-core@5.8.25
+149 verbose linkMans babel-core@5.8.25
+150 verbose rebuildBundles babel-core@5.8.25
+151 verbose rebuildBundles [ '.bin',
+151 verbose rebuildBundles   'babel-plugin-constant-folding',
+151 verbose rebuildBundles   'babel-plugin-dead-code-elimination',
+151 verbose rebuildBundles   'babel-plugin-eval',
+151 verbose rebuildBundles   'babel-plugin-inline-environment-variables',
+151 verbose rebuildBundles   'babel-plugin-jscript',
+151 verbose rebuildBundles   'babel-plugin-member-expression-literals',
+151 verbose rebuildBundles   'babel-plugin-property-literals',
+151 verbose rebuildBundles   'babel-plugin-proto-to-assign',
+151 verbose rebuildBundles   'babel-plugin-react-constant-elements',
+151 verbose rebuildBundles   'babel-plugin-react-display-name',
+151 verbose rebuildBundles   'babel-plugin-remove-console',
+151 verbose rebuildBundles   'babel-plugin-remove-debugger',
+151 verbose rebuildBundles   'babel-plugin-runtime',
+151 verbose rebuildBundles   'babel-plugin-undeclared-variables-check',
+151 verbose rebuildBundles   'babel-plugin-undefined-to-void',
+151 verbose rebuildBundles   'babylon',
+151 verbose rebuildBundles   'bluebird',
+151 verbose rebuildBundles   'chalk',
+151 verbose rebuildBundles   'convert-source-map',
+151 verbose rebuildBundles   'core-js',
+151 verbose rebuildBundles   'debug',
+151 verbose rebuildBundles   'detect-indent',
+151 verbose rebuildBundles   'esutils',
+151 verbose rebuildBundles   'fs-readdir-recursive',
+151 verbose rebuildBundles   'globals',
+151 verbose rebuildBundles   'home-or-tmp',
+151 verbose rebuildBundles   'is-integer',
+151 verbose rebuildBundles   'js-tokens',
+151 verbose rebuildBundles   'json5',
+151 verbose rebuildBundles   'line-numbers',
+151 verbose rebuildBundles   'lodash',
+151 verbose rebuildBundles   'minimatch',
+151 verbose rebuildBundles   'output-file-sync',
+151 verbose rebuildBundles   'path-exists',
+151 verbose rebuildBundles   'path-is-absolute',
+151 verbose rebuildBundles   'private',
+151 verbose rebuildBundles   'regenerator',
+151 verbose rebuildBundles   'regexpu',
+151 verbose rebuildBundles   'repeating',
+151 verbose rebuildBundles   'resolve',
+151 verbose rebuildBundles   'shebang-regex',
+151 verbose rebuildBundles   'slash',
+151 verbose rebuildBundles   'source-map',
+151 verbose rebuildBundles   'source-map-support',
+151 verbose rebuildBundles   'to-fast-properties',
+151 verbose rebuildBundles   'trim-right',
+151 verbose rebuildBundles   'try-resolve' ]
+152 info install babel-core@5.8.25
+153 info postinstall babel-core@5.8.25
+154 verbose rebuild bundle /home/jul/github/DoIt/node_modules/babel-loader
+155 info build /home/jul/github/DoIt/node_modules/babel-loader
+156 info preinstall babel-loader@5.3.2
+157 info linkStuff babel-loader@5.3.2
+158 silly linkStuff babel-loader@5.3.2 has /home/jul/github/DoIt/node_modules as its parent node_modules
+159 verbose linkBins babel-loader@5.3.2
+160 verbose linkMans babel-loader@5.3.2
+161 verbose rebuildBundles babel-loader@5.3.2
+162 verbose rebuildBundles [ 'babel-core', 'loader-utils', 'object-assign' ]
+163 info install babel-loader@5.3.2
+164 info postinstall babel-loader@5.3.2
+165 verbose rebuild bundle /home/jul/github/DoIt/node_modules/collections
+166 info build /home/jul/github/DoIt/node_modules/collections
+167 info preinstall collections@1.2.4
+168 info linkStuff collections@1.2.4
+169 silly linkStuff collections@1.2.4 has /home/jul/github/DoIt/node_modules as its parent node_modules
+170 verbose linkBins collections@1.2.4
+171 verbose linkMans collections@1.2.4
+172 verbose rebuildBundles collections@1.2.4
+173 verbose rebuildBundles [ 'weak-map' ]
+174 info install collections@1.2.4
+175 info postinstall collections@1.2.4
+176 verbose rebuild bundle /home/jul/github/DoIt/node_modules/grunt-template-jasmine-requirejs
+177 info build /home/jul/github/DoIt/node_modules/grunt-template-jasmine-requirejs
+178 info preinstall grunt-template-jasmine-requirejs@0.2.3
+179 info linkStuff grunt-template-jasmine-requirejs@0.2.3
+180 silly linkStuff grunt-template-jasmine-requirejs@0.2.3 has /home/jul/github/DoIt/node_modules as its parent node_modules
+181 verbose linkBins grunt-template-jasmine-requirejs@0.2.3
+182 verbose linkMans grunt-template-jasmine-requirejs@0.2.3
+183 verbose rebuildBundles grunt-template-jasmine-requirejs@0.2.3
+184 info install grunt-template-jasmine-requirejs@0.2.3
+185 info postinstall grunt-template-jasmine-requirejs@0.2.3
+186 verbose rebuild bundle /home/jul/github/DoIt/node_modules/jasmine
+187 info build /home/jul/github/DoIt/node_modules/jasmine
+188 info preinstall jasmine@2.3.2
+189 info linkStuff jasmine@2.3.2
+190 silly linkStuff jasmine@2.3.2 has /home/jul/github/DoIt/node_modules as its parent node_modules
+191 verbose linkBins jasmine@2.3.2
+192 verbose link bins [ { jasmine: './bin/jasmine.js' },
+192 verbose link bins   '/home/jul/github/DoIt/node_modules/.bin',
+192 verbose link bins   false ]
+193 verbose linkMans jasmine@2.3.2
+194 verbose rebuildBundles jasmine@2.3.2
+195 verbose rebuildBundles [ 'exit', 'glob' ]
+196 silly gentlyRm /home/jul/github/DoIt/node_modules/.bin/jasmine is being purged
+197 verbose gentlyRm don't care about contents; nuking /home/jul/github/DoIt/node_modules/.bin/jasmine
+198 silly vacuum-fs purging /home/jul/github/DoIt/node_modules/.bin/jasmine
+199 silly vacuum-fs quitting because other entries in /home/jul/github/DoIt/node_modules/.bin
+200 info install jasmine@2.3.2
+201 info postinstall jasmine@2.3.2
+202 verbose rebuild bundle /home/jul/github/DoIt/node_modules/jasmine-core
+203 info build /home/jul/github/DoIt/node_modules/jasmine-core
+204 info preinstall jasmine-core@2.3.4
+205 info linkStuff jasmine-core@2.3.4
+206 silly linkStuff jasmine-core@2.3.4 has /home/jul/github/DoIt/node_modules as its parent node_modules
+207 verbose linkBins jasmine-core@2.3.4
+208 verbose linkMans jasmine-core@2.3.4
+209 verbose rebuildBundles jasmine-core@2.3.4
+210 info install jasmine-core@2.3.4
+211 info postinstall jasmine-core@2.3.4
+212 verbose rebuild bundle /home/jul/github/DoIt/node_modules/karma
+213 info build /home/jul/github/DoIt/node_modules/karma
+214 info preinstall karma@0.12.37
+215 info linkStuff karma@0.12.37
+216 silly linkStuff karma@0.12.37 has /home/jul/github/DoIt/node_modules as its parent node_modules
+217 verbose linkBins karma@0.12.37
+218 verbose link bins [ { karma: './bin/karma' },
+218 verbose link bins   '/home/jul/github/DoIt/node_modules/.bin',
+218 verbose link bins   false ]
+219 verbose linkMans karma@0.12.37
+220 verbose rebuildBundles karma@0.12.37
+221 verbose rebuildBundles [ '.bin',
+221 verbose rebuildBundles   'chokidar',
+221 verbose rebuildBundles   'colors',
+221 verbose rebuildBundles   'connect',
+221 verbose rebuildBundles   'di',
+221 verbose rebuildBundles   'glob',
+221 verbose rebuildBundles   'graceful-fs',
+221 verbose rebuildBundles   'http-proxy',
+221 verbose rebuildBundles   'lodash',
+221 verbose rebuildBundles   'log4js',
+221 verbose rebuildBundles   'mime',
+221 verbose rebuildBundles   'minimatch',
+221 verbose rebuildBundles   'optimist',
+221 verbose rebuildBundles   'q',
+221 verbose rebuildBundles   'rimraf',
+221 verbose rebuildBundles   'socket.io',
+221 verbose rebuildBundles   'source-map',
+221 verbose rebuildBundles   'useragent' ]
+222 silly gentlyRm /home/jul/github/DoIt/node_modules/.bin/karma is being purged
+223 verbose gentlyRm don't care about contents; nuking /home/jul/github/DoIt/node_modules/.bin/karma
+224 silly vacuum-fs purging /home/jul/github/DoIt/node_modules/.bin/karma
+225 silly vacuum-fs quitting because other entries in /home/jul/github/DoIt/node_modules/.bin
+226 info install karma@0.12.37
+227 info postinstall karma@0.12.37
+228 verbose rebuild bundle /home/jul/github/DoIt/node_modules/karma-browserify
+229 info build /home/jul/github/DoIt/node_modules/karma-browserify
+230 info preinstall karma-browserify@4.4.0
+231 info linkStuff karma-browserify@4.4.0
+232 silly linkStuff karma-browserify@4.4.0 has /home/jul/github/DoIt/node_modules as its parent node_modules
+233 verbose linkBins karma-browserify@4.4.0
+234 verbose linkMans karma-browserify@4.4.0
+235 verbose rebuildBundles karma-browserify@4.4.0
+236 verbose rebuildBundles [ '.bin',
+236 verbose rebuildBundles   'browserify',
+236 verbose rebuildBundles   'convert-source-map',
+236 verbose rebuildBundles   'hat',
+236 verbose rebuildBundles   'js-string-escape',
+236 verbose rebuildBundles   'lodash',
+236 verbose rebuildBundles   'minimatch',
+236 verbose rebuildBundles   'os-shim',
+236 verbose rebuildBundles   'watchify' ]
+237 info install karma-browserify@4.4.0
+238 info postinstall karma-browserify@4.4.0
+239 verbose rebuild bundle /home/jul/github/DoIt/node_modules/karma-webpack
+240 info build /home/jul/github/DoIt/node_modules/karma-webpack
+241 info preinstall karma-webpack@1.7.0
+242 info linkStuff karma-webpack@1.7.0
+243 silly linkStuff karma-webpack@1.7.0 has /home/jul/github/DoIt/node_modules as its parent node_modules
+244 verbose linkBins karma-webpack@1.7.0
+245 verbose linkMans karma-webpack@1.7.0
+246 verbose rebuildBundles karma-webpack@1.7.0
+247 verbose rebuildBundles [ 'async',
+247 verbose rebuildBundles   'loader-utils',
+247 verbose rebuildBundles   'lodash',
+247 verbose rebuildBundles   'source-map',
+247 verbose rebuildBundles   'webpack-dev-middleware' ]
+248 info install karma-webpack@1.7.0
+249 info postinstall karma-webpack@1.7.0
+250 verbose rebuild bundle /home/jul/github/DoIt/node_modules/phantomjs
+251 info build /home/jul/github/DoIt/node_modules/phantomjs
+252 info preinstall phantomjs@1.9.18
+253 info linkStuff phantomjs@1.9.18
+254 silly linkStuff phantomjs@1.9.18 has /home/jul/github/DoIt/node_modules as its parent node_modules
+255 verbose linkBins phantomjs@1.9.18
+256 verbose link bins [ { phantomjs: './bin/phantomjs' },
+256 verbose link bins   '/home/jul/github/DoIt/node_modules/.bin',
+256 verbose link bins   false ]
+257 verbose linkMans phantomjs@1.9.18
+258 verbose rebuildBundles phantomjs@1.9.18
+259 verbose rebuildBundles [ '.bin',
+259 verbose rebuildBundles   'adm-zip',
+259 verbose rebuildBundles   'fs-extra',
+259 verbose rebuildBundles   'kew',
+259 verbose rebuildBundles   'npmconf',
+259 verbose rebuildBundles   'progress',
+259 verbose rebuildBundles   'request',
+259 verbose rebuildBundles   'request-progress',
+259 verbose rebuildBundles   'which' ]
+260 silly gentlyRm /home/jul/github/DoIt/node_modules/.bin/phantomjs is being purged
+261 verbose gentlyRm don't care about contents; nuking /home/jul/github/DoIt/node_modules/.bin/phantomjs
+262 silly vacuum-fs purging /home/jul/github/DoIt/node_modules/.bin/phantomjs
+263 silly vacuum-fs quitting because other entries in /home/jul/github/DoIt/node_modules/.bin
+264 info install phantomjs@1.9.18
+265 verbose unsafe-perm in lifecycle true
+266 info postinstall phantomjs@1.9.18
+267 verbose rebuild bundle /home/jul/github/DoIt/node_modules/webpack
+268 info build /home/jul/github/DoIt/node_modules/webpack
+269 info preinstall webpack@1.12.2
+270 info linkStuff webpack@1.12.2
+271 silly linkStuff webpack@1.12.2 has /home/jul/github/DoIt/node_modules as its parent node_modules
+272 verbose linkBins webpack@1.12.2
+273 verbose link bins [ { webpack: './bin/webpack.js' },
+273 verbose link bins   '/home/jul/github/DoIt/node_modules/.bin',
+273 verbose link bins   false ]
+274 verbose linkMans webpack@1.12.2
+275 verbose rebuildBundles webpack@1.12.2
+276 verbose rebuildBundles [ '.bin',
+276 verbose rebuildBundles   'async',
+276 verbose rebuildBundles   'clone',
+276 verbose rebuildBundles   'enhanced-resolve',
+276 verbose rebuildBundles   'esprima',
+276 verbose rebuildBundles   'interpret',
+276 verbose rebuildBundles   'memory-fs',
+276 verbose rebuildBundles   'mkdirp',
+276 verbose rebuildBundles   'node-libs-browser',
+276 verbose rebuildBundles   'optimist',
+276 verbose rebuildBundles   'supports-color',
+276 verbose rebuildBundles   'tapable',
+276 verbose rebuildBundles   'uglify-js',
+276 verbose rebuildBundles   'watchpack',
+276 verbose rebuildBundles   'webpack-core' ]
+277 silly gentlyRm /home/jul/github/DoIt/node_modules/.bin/webpack is being purged
+278 verbose gentlyRm don't care about contents; nuking /home/jul/github/DoIt/node_modules/.bin/webpack
+279 silly vacuum-fs purging /home/jul/github/DoIt/node_modules/.bin/webpack
+280 silly vacuum-fs quitting because other entries in /home/jul/github/DoIt/node_modules/.bin
+281 info install webpack@1.12.2
+282 info postinstall webpack@1.12.2
+283 info install doit@
+284 info postinstall doit@
+285 info prepublish doit@
+286 verbose validateInstall loading /home/jul/github/DoIt/package.json for validation
+287 verbose stack Error: The package karma does not satisfy its siblings' peerDependencies requirements!
+287 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+287 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:267:7
+287 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+287 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+287 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+287 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+287 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+287 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+287 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+287 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+288 verbose cwd /home/jul/github/DoIt
+289 error Linux 3.13.0-65-generic
+290 error argv "node" "/usr/local/bin/npm" "install"
+291 error node v0.10.25
+292 error npm  v2.10.0
+293 error code EPEERINVALID
+294 error peerinvalid The package karma does not satisfy its siblings' peerDependencies requirements!
+294 error peerinvalid Peer karma-phantomjs-launcher@0.1.4 wants karma@>=0.9
+294 error peerinvalid Peer grunt-karma@0.12.0 wants karma@^0.13.0 || >= 0.14.0-rc.0
+294 error peerinvalid Peer karma-browserify@4.4.0 wants karma@>=0.10
+295 verbose exit [ 1, true ]

@@ -13,7 +13,7 @@ var app = angular.module('doitApp');
 app.factory('MenuFactory', ['$http', function($http) {
     return {
         getMenuFuture: function() {
-            return $http.get('/menu.json');
+            return $http.get('/app/menu.json');
         }
     };
 }]);

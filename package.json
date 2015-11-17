@@ -33,7 +33,11 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": {
-    "test": "grunt test"
+   "scripts": {
+    "postinstall": "node node_modules/bower/bin/bower install"
+  },
+  "dependencies": {
+    "bower": "^1.6.5",
+    "http-server": "^0.8.5"
   }
 }
